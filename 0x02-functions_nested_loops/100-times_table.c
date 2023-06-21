@@ -4,7 +4,7 @@
  * prints the n times table, starting with 0
  * @n: number of the times table
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 	int i, j, k;
 
@@ -44,4 +44,4 @@ void times_table(int n)
 			_putchar('\n');
 		}
 	}
-}	
+	
