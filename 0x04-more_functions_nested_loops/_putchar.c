@@ -1,4 +1,4 @@
-#include 'main.h'
+#include "main.h"
 #include <unistd.h>
 
 /**
@@ -7,7 +7,7 @@
  *On error,-1 is returned and errno is set appro   priately
  * Return: Always 0.
  */
- int_putchar (char c)
+ int_putchar(char c)
  {
 	return(write(1,&c,1));
  }	
